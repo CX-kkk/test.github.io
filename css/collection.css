@@ -1,0 +1,85 @@
+/*---------------------------------------------------------
+Basic Style Sheet (for version 4 browsers)
+
+version: 1.1
+auther: Jolie Shaw
+email: jolievfx@gmail.com
+website: ...
+---------------------------------------------------------*/
+#content {
+	width: 1000px;
+}
+
+#catalogue {
+	text-align: center;
+	color: black;
+	font-size: 1.4em;
+	font-weight: bolder;
+}
+
+.subject {
+	float: left;
+	width: 250px;
+	height: 350px;
+}
+
+.img-wrapper {
+	background: url(../images/collection/shadow.gif) no-repeat bottom right;
+	width: 200px;
+	height: 250px;
+/*	clear: right;
+	float: left;*/
+}
+
+.img-wrapper div {
+	background: url(../images/collection/mask.png) no-repeat left top !important;
+	background: url(../images/collection/mask.gif) no-repeat left top;
+	/*padding: 0 5px 5px 0;*/
+}
+
+
+#content img {
+	width: 200px;
+	height: 250px;
+	position: relative;
+	left: -5px;
+	top: -5px;
+}
+
+
+.text {
+	width: 130px;
+
+	float: center;
+	margin-top: 25px;
+	margin-left: 30px;
+	text-align: center;
+}
+
+.text a {
+	display:block;
+	background: #272727;
+	color: #ffffff;
+	height: 35px;
+	padding-top: 10px;
+}
+
+.text a:hover {
+	background: #525252;
+	-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-o-transition: all 0.3s;
+	color: #ffffff;
+	display:block;
+	height: 35px;
+	padding-top: 10px;
+
+}
+
+/*#bottom {
+	clear: left;
+	padding-top: 90px;
+}
+*/
+
+
+
+

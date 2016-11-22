@@ -1,0 +1,61 @@
+/*---------------------------------------------------------
+Basic Style Sheet (for version 4 browsers)
+
+version: 1.1
+auther: Jolie Shaw
+email: jolievfx@gmail.com
+website: ...
+---------------------------------------------------------*/
+#name{
+	font-size: 2em;
+	font-weight: bolder;
+	color: black;
+	float: left;
+}
+
+.sublink{
+	float: left;
+	margin-top: 15px;
+	margin-right: 20px;
+	margin-left: 20px;
+	color: black;
+}
+
+#occupation {
+	font-size: 1.3em;
+	clear: left;
+}
+
+a {
+	text-decoration:none;
+}
+
+a:link {
+	color: gray;
+}
+
+a:visited {
+	color: gray;
+}
+
+a:hover {
+	text-decoration:none;
+	color: black;
+}
+
+/*.current {
+	color: black;
+}
+*/
+a.current:link {
+	color: black;
+}
+
+a.current:visited {
+	color: black;
+}
+
+a.current:hover {
+	text-decoration:none;
+	color: black;
+}

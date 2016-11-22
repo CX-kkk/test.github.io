@@ -1,0 +1,21 @@
+/*---------------------------------------------------------
+Basic Style Sheet (for version 4 browsers)
+
+version: 1.1
+auther: Jolie Shaw
+email: jolievfx@gmail.com
+website: ...
+---------------------------------------------------------*/
+#content img {
+	width: 200px;
+	height: 270px;
+	float: left;
+	margin-right: 50px;
+}
+
+#content {
+	width: 900px;
+	text-align: justify;
+	text-indent:1.5em;
+}
+
