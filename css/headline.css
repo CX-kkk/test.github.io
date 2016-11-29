@@ -6,6 +6,10 @@ auther: Jolie Shaw
 email: jolievfx@gmail.com
 website: ...
 ---------------------------------------------------------*/
+#headline {
+	width: 3000px;
+}
+
 #name{
 	font-size: 2em;
 	font-weight: bolder;

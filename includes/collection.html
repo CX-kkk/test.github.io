@@ -7,15 +7,15 @@
 	<link rel="stylesheet" type="text/css" href="../css/headline.css">
 	<link rel="stylesheet" type="text/css" href="../css/bottom.css">
 	<link rel="stylesheet" type="text/css" href="../css/collection.css">
-	<!-- [if gte ie 5.5000] -->
+	<!-- [if gte ie 5.5000]
 	<link rel="stylesheet" type="text/css" href="../css/collection/ie55.css">
-	<!-- [endif] -->
+	[endif] -->
 </head>
 <body>
 	<div id="mainbody">
 		<div id="headline">
 			<div id="name"><a href="../index.html" class="current">Isabella Swan</a></div>
-			<div class="sublink"><a href="../index.html">Home</a></div> 
+			<div class="sublink"><a href="../index.html">Home</a></div>
 			<div class="sublink"><a href="collection.html" class="current">Collection</a></div>
 			<div class="sublink"><a href="latest.html">Latest</a></div>
 			<p id="occupation">Twight fans</p>
@@ -29,49 +29,49 @@
 			<div class="subject">
 				<div class="img-wrapper">
 					<div>
-						<a href="subCollection/text.html">
+						<a href="subCollection/table.html">
 							<img src="../images/collection/one.jpeg">
 						</a>
 					</div>
 				</div>
 				<div class="text">
-					<a href="subCollection/text.html">Twilight</a>
+					<a href="subCollection/table.html">Twilight</a>
 				</div>
 			</div>
 			<div class="subject">
 				<div class="img-wrapper">
 					<div>
-						<a href="subCollection/text.html">
+						<a href="subCollection/New Moon.html">
 							<img src="../images/collection/two.jpeg">
 						</a>
 					</div>
 				</div>
 				<div class="text">
-					<a href="subCollection/text.html">New Moon</a>
+					<a href="subCollection/New Moon.html">New Moon</a>
 				</div>
 			</div>
 			<div class="subject">
 				<div class="img-wrapper">
 					<div>
-						<a href="subCollection/text.html">
+						<a href="subCollection/Eclipse.html">
 							<img src="../images/collection/three.jpeg">
 						</a>
 					</div>
 				</div>
 				<div class="text">
-					<a href="subCollection/text.html">Eclipse</a>
+					<a href="subCollection/Eclipse.html">Eclipse</a>
 				</div>
 			</div>
 			<div class="subject">
 				<div class="img-wrapper">
 					<div>
-						<a href="subCollection/text.html">
+						<a href="subCollection/table.html">
 							<img src="../images/collection/four.jpeg">
 						</a>
 					</div>
 				</div>
 				<div class="text">
-					<a href="subCollection/text.html">Breaking Dawn</a>
+					<a href="subCollection/table.html">Breaking Dawn</a>
 				</div>
 			</div>
 
@@ -87,5 +87,17 @@
 			<div><a href="https://www.baidu.com/"><img src="../images/instagram.gif"></a></div>
 		</div>
 	</div>
+
+
+	<script type="text/javascript">
+	document.getElementById("mainbody");
+	document.getElementsByTagName("div");
+
+	var main = document.getElementById("name");
+	var items = main.getElementsByTagName("div");
+	for (var i = 0; i < items.length; i++) {
+		alert(items[i].getAttribute("background");
+	};
+	</script>
 </body>
 </html>

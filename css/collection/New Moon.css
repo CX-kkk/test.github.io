@@ -1,0 +1,30 @@
+/*---------------------------------------------------------
+Basic Style Sheet (for version 4 browsers)
+
+version: 1.1
+auther: Jolie Shaw
+email: jolievfx@gmail.com
+website: ...
+---------------------------------------------------------*/
+.imgWin {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.imgWin img {
+	max-width: 400px;
+	max-height: 400px;
+	width:auto;
+	zoom:expression( function(e) {if(e.width>e.height) {
+		if (e.width>400) { 
+			e.height = e.height*(400 /e.width); e.width=400; 
+			}}
+		else {
+			if (e.height>400) 
+			{ e.width = e.width*(400 /e.height); e.height=400; }
+			}
+		e.style.zoom = '1';}(this));
+	overflow:hidden; 
+}
+
